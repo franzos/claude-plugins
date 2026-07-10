@@ -1,0 +1,56 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gofranz",
+  "description": "Franz's Claude Code experts, grouped by domain into installable plugins.",
+  "owner": {
+    "name": "Franz",
+    "email": "mail@gofranz.com"
+  },
+  "plugins": [
+    {
+      "name": "identity",
+      "source": "./plugins/identity",
+      "category": "development"
+    },
+    {
+      "name": "engineers",
+      "source": "./plugins/engineers",
+      "category": "development"
+    },
+    {
+      "name": "guix",
+      "source": "./plugins/guix",
+      "category": "development"
+    },
+    {
+      "name": "security",
+      "source": "./plugins/security",
+      "category": "security"
+    },
+    {
+      "name": "sql",
+      "source": "./plugins/sql",
+      "category": "development"
+    },
+    {
+      "name": "iota",
+      "source": "./plugins/iota",
+      "category": "development"
+    },
+    {
+      "name": "iced",
+      "source": "./plugins/iced",
+      "category": "development"
+    },
+    {
+      "name": "forseti",
+      "source": "./plugins/forseti",
+      "category": "operations"
+    },
+    {
+      "name": "stackpit",
+      "source": "./plugins/stackpit",
+      "category": "operations"
+    }
+  ]
+}

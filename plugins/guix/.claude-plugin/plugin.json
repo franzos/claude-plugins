@@ -1,0 +1,10 @@
+{
+  "name": "guix",
+  "version": "0.1.0",
+  "description": "GNU Guix specialist: package definitions, services, home configurations, channels, manifests, G-expressions, and store/daemon debugging.",
+  "author": {
+    "name": "Franz",
+    "email": "mail@gofranz.com"
+  },
+  "license": "MIT"
+}

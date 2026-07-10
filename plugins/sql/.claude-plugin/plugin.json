@@ -1,0 +1,10 @@
+{
+  "name": "sql",
+  "version": "0.1.0",
+  "description": "SQL specialist: query optimization, schema and index design, execution-plan analysis, and platform-specific features across PostgreSQL, MySQL, SQL Server, SQLite, and Oracle.",
+  "author": {
+    "name": "Franz",
+    "email": "mail@gofranz.com"
+  },
+  "license": "MIT"
+}

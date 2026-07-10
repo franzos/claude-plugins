@@ -1,0 +1,10 @@
+{
+  "name": "stackpit",
+  "version": "0.1.0",
+  "description": "Operator skills for Stackpit, the self-hosted, single-binary drop-in replacement for Sentry event ingestion: guided setup (with or without Docker, SQLite or Postgres), goal-driven reconfiguration (OIDC/OAuth SSO, org/role mapping, email/Slack/webhook alerts, filter modes, Postgres migration), and a best-practice security audit of an existing deployment.",
+  "author": {
+    "name": "Franz",
+    "email": "mail@gofranz.com"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "iota",
+  "version": "0.1.0",
+  "description": "IOTA L1 protocol specialist: the Move-based, object-centric blockchain, its Rust monorepo, framework, RPC servers, indexer, CLI, and SDKs.",
+  "author": {
+    "name": "Franz",
+    "email": "mail@gofranz.com"
+  },
+  "license": "MIT"
+}

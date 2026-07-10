@@ -1,0 +1,10 @@
+{
+  "name": "iced",
+  "version": "0.1.0",
+  "description": "iced Rust GUI specialist: The Elm Architecture loop, widgets and layout, Task and Subscription, theming, custom Widget/canvas/shader work, and headless iced_test.",
+  "author": {
+    "name": "Franz",
+    "email": "mail@gofranz.com"
+  },
+  "license": "MIT"
+}

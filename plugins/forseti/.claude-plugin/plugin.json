@@ -1,0 +1,10 @@
+{
+  "name": "forseti",
+  "version": "0.1.0",
+  "description": "Operator skills for Forseti, the web UI and admin console for the Ory Kratos + Hydra identity stack: guided setup (with or without Docker), goal-driven reconfiguration (login providers, Linux/POSIX login, downstream OAuth clients), and a best-practice security audit of an existing deployment.",
+  "author": {
+    "name": "Franz",
+    "email": "mail@gofranz.com"
+  },
+  "license": "MIT"
+}
