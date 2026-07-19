@@ -51,6 +51,11 @@
       "name": "stackpit",
       "source": "./plugins/stackpit",
       "category": "operations"
+    },
+    {
+      "name": "infra",
+      "source": "./plugins/infra",
+      "category": "operations"
     }
   ]
 }

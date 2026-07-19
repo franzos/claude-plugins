@@ -64,6 +64,7 @@ The agents treat this as guidance, not gospel: if a declared tool turns out not 
 | `iced` | iced Rust GUI specialist: `specialist:iced` (The Elm Architecture loop, widgets, `Task`/`Subscription`, theming, custom `Widget`/canvas/shader work). |
 | `forseti` | Operator skills for Forseti (the web UI for the Ory Kratos + Hydra stack): `forseti:setup`, `forseti:reconfigure`, `forseti:audit`. |
 | `stackpit` | Operator skills for Stackpit (the self-hosted, single-binary Sentry replacement): `stackpit:setup`, `stackpit:reconfigure`, `stackpit:audit`. |
+| `infra` | Infrastructure and operations specialists: `specialist:haproxy`, `specialist:nginx`, `specialist:caddy`, `specialist:traefik` (reverse proxies and web servers), `specialist:docker`, `specialist:podman` (container runtimes), and `specialist:systemd` (service manager). |
 
 ## Best practices
 
