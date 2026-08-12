@@ -1,0 +1,10 @@
+{
+  "name": "plan",
+  "version": "0.1.0",
+  "description": "Spec, plan, execute, snapshot, resume. Four slash-commands for multi-session work, with artifacts kept in a knowledge base outside the working repo. No hooks, no auto-invocation.",
+  "author": {
+    "name": "Franz",
+    "email": "mail@gofranz.com"
+  },
+  "license": "MIT"
+}

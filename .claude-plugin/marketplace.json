@@ -43,6 +43,11 @@
       "category": "development"
     },
     {
+      "name": "plan",
+      "source": "./plugins/plan",
+      "category": "workflow"
+    },
+    {
       "name": "forseti",
       "source": "./plugins/forseti",
       "category": "operations"

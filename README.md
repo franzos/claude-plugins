@@ -62,9 +62,21 @@ The agents treat this as guidance, not gospel: if a declared tool turns out not 
 | `sql` | SQL specialist: `specialist:sql` (query optimization, schema and index design, execution-plan analysis, cross-platform features). |
 | `iota` | IOTA L1 protocol specialist: `specialist:iota` (the Move-based, object-centric blockchain, its Rust monorepo, RPC servers, indexer, CLI, and SDKs). |
 | `iced` | iced Rust GUI specialist: `specialist:iced` (The Elm Architecture loop, widgets, `Task`/`Subscription`, theming, custom `Widget`/canvas/shader work). |
+| `plan` | Multi-session workflow skills: `plan:new` (spec and plan), `plan:run` (execute autonomously), `plan:snapshot` (record verified state on interruption), `plan:resume` (verify a snapshot, then continue). Slash-commands only, no hooks. |
 | `forseti` | Operator skills for Forseti (the web UI for the Ory Kratos + Hydra stack): `forseti:setup`, `forseti:reconfigure`, `forseti:audit`. |
 | `stackpit` | Operator skills for Stackpit (the self-hosted, single-binary Sentry replacement): `stackpit:setup`, `stackpit:reconfigure`, `stackpit:audit`. |
 | `infra` | Infrastructure and operations specialists: `specialist:haproxy`, `specialist:nginx`, `specialist:caddy`, `specialist:traefik` (reverse proxies and web servers), `specialist:docker`, `specialist:podman` (container runtimes), and `specialist:systemd` (service manager). |
+
+### External dependency: `plan` needs `feature-dev`
+
+The `plan` skills dispatch `feature-dev:code-explorer`, `feature-dev:code-architect`, and `feature-dev:code-reviewer`. Those agents ship in Anthropic's own marketplace, not this one, so installing `plan` does not pull them in. Add them yourself:
+
+```
+/plugin marketplace add anthropics/claude-plugins-official
+/plugin install feature-dev
+```
+
+Without them the skills still load, but the steps that delegate exploration, architecture, and review have nothing to dispatch to and fall back to inline work in your session.
 
 ## Best practices
 
@@ -84,6 +96,7 @@ The payoff is less duplication and more effective skills: fixes and improvements
 plugins/<name>/
   .claude-plugin/plugin.json       # plugin manifest
   agents/*.md                      # agent definitions
+  skills/<skill>/SKILL.md          # skill definitions
 ```
 
 Agents are plain Markdown with YAML frontmatter (`name`, `description`, `tools`, `model`). They are written to be portable: build and test commands are shown as examples (with `guix shell` as one option), not as assumptions about your machine.
