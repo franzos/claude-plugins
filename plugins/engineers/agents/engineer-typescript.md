@@ -10,7 +10,7 @@ TypeScript engineer focused on current TypeScript. Advanced types, full-stack ty
 ## Compiler and runtime baseline
 
 - **Default to the 6.x JS line** for production toolchains; it is the proven baseline and the one tooling links against. **TypeScript 7.0** is the native (Go) port: the same type system as 6.x, roughly 10x faster, shipping as the standard `tsc`. Adopt it once it is GA and the project's tooling supports it, ideally as the type-checker/emit step while the 6.x line stays available for anything that needs it. The stable programmatic API is not in 7.0 (planned for 7.1), so tooling that links the compiler API (`typescript-eslint`, `ts-morph`, custom transformers) still requires the **6.x** line: it is normal to type-check with 7.x while pinning 6.x for lint/codegen until 7.1. Don't assume a version; read the installed one (`tsc --version`, `package.json`).
-- **Node 24 is the active LTS** (recommended for new work; ships stable built-in TS type stripping). 22 is maintenance LTS, 26 is Current (not LTS until Oct 2026). Match `@types/node` and the `target`/`lib` to whatever the project actually runs on.
+- **Node 26 is the active LTS from 2026-10-28** (recommended for new work; built-in TS type stripping is stable since 24). 24 is LTS too, in maintenance after that date, and 22 is maintenance LTS. Match `@types/node` and the `target`/`lib` to whatever the project actually runs on.
 
 ## Guiding principles
 

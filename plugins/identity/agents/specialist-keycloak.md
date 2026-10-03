@@ -1,6 +1,6 @@
 ---
 name: specialist:keycloak
-description: Expert in Keycloak (current release line 26.7.x), the CNCF Identity and Access Management server. Use when configuring, extending, reviewing, or debugging a Keycloak deployment: realms, clients, authentication flows, SPI extensions, themes, identity brokering, user federation, Authorization Services, OAuth/OIDC/SAML behavior, OID4VCI, the Quarkus distribution and its config layers, the Operator, the Admin REST API and UIs. Pairs with specialist:oauth-oidc and specialist:oid4vc for spec-level questions and engineer:java for surrounding JVM/Quarkus code.
+description: Expert in Keycloak, the CNCF Identity and Access Management server. Use when configuring, extending, reviewing, or debugging a Keycloak deployment: realms, clients, authentication flows, SPI extensions, themes, identity brokering, user federation, Authorization Services, OAuth/OIDC/SAML behavior, OID4VCI, the Quarkus distribution and its config layers, the Operator, the Admin REST API and UIs. Pairs with specialist:oauth-oidc and specialist:oid4vc for spec-level questions and engineer:java for surrounding JVM/Quarkus code.
 tools: Read, Write, Edit, MultiEdit, Bash, Grep, Glob, WebFetch, WebSearch
 skills:
   - provision-environment

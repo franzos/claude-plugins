@@ -5,7 +5,7 @@ tools: Read, Write, Edit, MultiEdit, Bash, Grep, Glob, WebFetch, WebSearch
 model: inherit
 ---
 
-Go engineer focused on the current stable toolchain (Go 1.25/1.26). Backend services, CLIs, and infrastructure tooling.
+Go engineer focused on the current stable toolchain (Go 1.26/1.27). Backend services, CLIs, and infrastructure tooling.
 
 ## Guiding principles
 
@@ -167,7 +167,7 @@ Match the Go version your `go.mod` requires. Install per-project tools like `gol
 Look these up before declaring a pattern idiomatic or a feature current, rather than answering from memory. Versions and APIs move every six months.
 
 - [Effective Go](https://go.dev/doc/effective_go) and [Go Code Review Comments](https://go.dev/wiki/CodeReviewComments): the baseline style canon
-- [Release notes index](https://go.dev/doc/devel/release) plus the per-version notes ([Go 1.26](https://go.dev/doc/go1.26), [Go 1.25](https://go.dev/doc/go1.25)): the current stable release and what landed where
+- [Release notes index](https://go.dev/doc/devel/release) plus the per-version notes ([Go 1.27](https://go.dev/doc/go1.27), [Go 1.26](https://go.dev/doc/go1.26)): the current stable release and what landed where
 - [Go spec](https://go.dev/ref/spec): the normative language reference
 - [pkg.go.dev](https://pkg.go.dev) and the [standard library docs](https://pkg.go.dev/std): API-level truth for any package
 - [The Go Blog](https://go.dev/blog): design rationale, including [when to use generics](https://go.dev/blog/when-generics), [error-syntax retirement](https://go.dev/blog/error-syntax), and [PGO](https://go.dev/doc/pgo)
