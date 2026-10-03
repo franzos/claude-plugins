@@ -1,6 +1,6 @@
 {
   "name": "identity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Identity and access specialists: Keycloak, OAuth 2.0/OIDC, OpenID for Verifiable Credentials (OID4VCI/OID4VP), and panva/node-oidc-provider.",
   "author": {
     "name": "Franz",

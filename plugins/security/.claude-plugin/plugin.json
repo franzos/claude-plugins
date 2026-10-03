@@ -1,6 +1,6 @@
 {
   "name": "security",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Language-agnostic security auditor: attack-surface mapping and attacker-exploitable findings grounded in CWE, OWASP, and CVE/RustSec advisories.",
   "author": {
     "name": "Franz",

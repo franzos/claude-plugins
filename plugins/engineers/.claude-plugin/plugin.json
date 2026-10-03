@@ -1,6 +1,6 @@
 {
   "name": "engineers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Stack-specific implementation engineers: C++, Go, Java, Next.js, Qt, React, Rust, and TypeScript.",
   "author": {
     "name": "Franz",
